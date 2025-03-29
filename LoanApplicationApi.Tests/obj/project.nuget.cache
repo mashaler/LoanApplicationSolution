@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "ERjdMpERtMc=",
-  "success": false,
+  "dgSpecHash": "wINcDhIyBuE=",
+  "success": true,
   "projectFilePath": "/Users/rolvamashale/Desktop/LoanApplicationSolution/LoanApplicationApi.Tests/LoanApplicationApi.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/rolvamashale/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
@@ -54,7 +54,7 @@
     "/Users/rolvamashale/.nuget/packages/microsoft.codeanalysis.common/2.8.2/microsoft.codeanalysis.common.2.8.2.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/microsoft.codeanalysis.csharp/2.8.2/microsoft.codeanalysis.csharp.2.8.2.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/microsoft.codeanalysis.razor/2.3.0/microsoft.codeanalysis.razor.2.3.0.nupkg.sha512",
-    "/Users/rolvamashale/.nuget/packages/microsoft.codecoverage/17.12.0/microsoft.codecoverage.17.12.0.nupkg.sha512",
+    "/Users/rolvamashale/.nuget/packages/microsoft.codecoverage/17.13.0/microsoft.codecoverage.17.13.0.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/microsoft.data.sqlclient/5.1.6/microsoft.data.sqlclient.5.1.6.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.1.1/microsoft.data.sqlclient.sni.runtime.5.1.1.nupkg.sha512",
@@ -92,13 +92,14 @@
     "/Users/rolvamashale/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.35.0/microsoft.identitymodel.protocols.openidconnect.6.35.0.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/microsoft.identitymodel.tokens/6.35.0/microsoft.identitymodel.tokens.6.35.0.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/microsoft.net.http.headers/2.3.0/microsoft.net.http.headers.2.3.0.nupkg.sha512",
-    "/Users/rolvamashale/.nuget/packages/microsoft.net.test.sdk/17.12.0/microsoft.net.test.sdk.17.12.0.nupkg.sha512",
+    "/Users/rolvamashale/.nuget/packages/microsoft.net.test.sdk/17.13.0/microsoft.net.test.sdk.17.13.0.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
-    "/Users/rolvamashale/.nuget/packages/microsoft.testplatform.objectmodel/17.12.0/microsoft.testplatform.objectmodel.17.12.0.nupkg.sha512",
-    "/Users/rolvamashale/.nuget/packages/microsoft.testplatform.testhost/17.12.0/microsoft.testplatform.testhost.17.12.0.nupkg.sha512",
+    "/Users/rolvamashale/.nuget/packages/microsoft.testplatform/17.13.0/microsoft.testplatform.17.13.0.nupkg.sha512",
+    "/Users/rolvamashale/.nuget/packages/microsoft.testplatform.objectmodel/17.13.0/microsoft.testplatform.objectmodel.17.13.0.nupkg.sha512",
+    "/Users/rolvamashale/.nuget/packages/microsoft.testplatform.testhost/17.13.0/microsoft.testplatform.testhost.17.13.0.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/microsoft.win32.registry/4.5.0/microsoft.win32.registry.4.5.0.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/moq/4.20.72/moq.4.20.72.nupkg.sha512",
@@ -200,24 +201,14 @@
     "/Users/rolvamashale/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/system.xml.xpath/4.3.0/system.xml.xpath.4.3.0.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/system.xml.xpath.xdocument/4.3.0/system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
-    "/Users/rolvamashale/.nuget/packages/xunit/2.9.2/xunit.2.9.2.nupkg.sha512",
+    "/Users/rolvamashale/.nuget/packages/xunit/2.9.3/xunit.2.9.3.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/xunit.abstractions/2.0.3/xunit.abstractions.2.0.3.nupkg.sha512",
-    "/Users/rolvamashale/.nuget/packages/xunit.analyzers/1.16.0/xunit.analyzers.1.16.0.nupkg.sha512",
-    "/Users/rolvamashale/.nuget/packages/xunit.assert/2.9.2/xunit.assert.2.9.2.nupkg.sha512",
-    "/Users/rolvamashale/.nuget/packages/xunit.core/2.9.2/xunit.core.2.9.2.nupkg.sha512",
-    "/Users/rolvamashale/.nuget/packages/xunit.extensibility.core/2.9.2/xunit.extensibility.core.2.9.2.nupkg.sha512",
-    "/Users/rolvamashale/.nuget/packages/xunit.extensibility.execution/2.9.2/xunit.extensibility.execution.2.9.2.nupkg.sha512",
+    "/Users/rolvamashale/.nuget/packages/xunit.analyzers/1.18.0/xunit.analyzers.1.18.0.nupkg.sha512",
+    "/Users/rolvamashale/.nuget/packages/xunit.assert/2.9.3/xunit.assert.2.9.3.nupkg.sha512",
+    "/Users/rolvamashale/.nuget/packages/xunit.core/2.9.3/xunit.core.2.9.3.nupkg.sha512",
+    "/Users/rolvamashale/.nuget/packages/xunit.extensibility.core/2.9.3/xunit.extensibility.core.2.9.3.nupkg.sha512",
+    "/Users/rolvamashale/.nuget/packages/xunit.extensibility.execution/2.9.3/xunit.extensibility.execution.2.9.3.nupkg.sha512",
     "/Users/rolvamashale/.nuget/packages/xunit.runner.visualstudio/2.8.2/xunit.runner.visualstudio.2.8.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: xunit from 2.9.3 to 2.9.2. Reference the package directly from the project to select a different version. \n LoanApplicationApi.Tests -> LoanApplicationApi -> xunit (>= 2.9.3) \n LoanApplicationApi.Tests -> xunit (>= 2.9.2)",
-      "libraryId": "xunit",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }

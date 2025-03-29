@@ -42,7 +42,9 @@ namespace LoanApplicationApi.Tests.Services
             var result = await _service.UpdateLoanStatusAsync(appliedLoan.Id, "Approved");
 
             // Assert
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
             Assert.Equal("Approved", result.Status);
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
         }
     }
 }
