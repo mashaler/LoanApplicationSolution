@@ -8,6 +8,6 @@ namespace LoanApplicationApi.Services
     {
         Task<List<LoanApplication>> GetAllLoansAsync();
         Task<LoanApplication> ApplyLoanAsync(LoanApplication loan);
-        Task<LoanApplication> UpdateLoanStatusAsync(int id, string status);
+        Task<LoanApplication?> UpdateLoanStatusAsync(int id, string status);
     }
 }

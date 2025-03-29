@@ -22,7 +22,9 @@ namespace LoanApplicationApi.Services
             return await Task.FromResult(loan);
         }
 
-        public async Task<LoanApplication> UpdateLoanStatusAsync(int id, string status)
+#pragma warning disable CS8613 // Nullability of reference types in return type doesn't match implicitly implemented member.
+        public async Task<LoanApplication?> UpdateLoanStatusAsync(int id, string status)
+#pragma warning restore CS8613 // Nullability of reference types in return type doesn't match implicitly implemented member.
         {
             var loan = _loanApplications.FirstOrDefault(l => l.Id == id);
             if (loan != null)
