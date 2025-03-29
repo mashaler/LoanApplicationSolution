@@ -7,7 +7,7 @@ namespace LoanApplicationApi.Models
         public int Id { get; set; }
 
         [Required]
-        public string Name { get; set; }
+        public required string Name { get; set; }
 
         [Range(1, 100000)]
         public double Amount { get; set; }
