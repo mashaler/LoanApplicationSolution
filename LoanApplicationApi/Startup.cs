@@ -24,6 +24,19 @@ namespace LoanApplicationApi
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<ILoanService, LoanService>();
+
+            // ✅ Enable CORS
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                               .AllowAnyMethod()
+                               .AllowAnyHeader();
+                    });
+            });
+
             services.AddControllers();
         }
 
@@ -34,7 +47,11 @@ namespace LoanApplicationApi
                 app.UseDeveloperExceptionPage();
             }
 
+            // ✅ Apply CORS before routing
+            app.UseCors("AllowAll");
+
             app.UseRouting();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
